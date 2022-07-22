@@ -40,7 +40,7 @@ $(document).on("click", "#aba", function () {
 
         setTimeout(function () {
 
-            $("#aba img").attr("src", "img/Close.png");
+            $("#aba img").attr("src", "img/close.png");
             $("#aba img").attr("id", "closeIcon");
 
             $("#aba img").animate({
