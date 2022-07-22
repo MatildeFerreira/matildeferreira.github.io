@@ -69,7 +69,7 @@ $(document).on("click", "#aba", function () {
 
         setTimeout(function () {
 
-            $("#aba img").attr("src", "img/Menu.png");
+            $("#aba img").attr("src", "img/menu.png");
             $("#aba img").attr("id", "menuIcon");
 
             $("#aba img").animate({
@@ -102,7 +102,7 @@ $(document).on("click", "#fill", function () {
 
     setTimeout(function () {
 
-        $("#aba img").attr("src", "img/Menu.png");
+        $("#aba img").attr("src", "img/menu.png");
         $("#aba img").attr("id", "menuIcon");
 
         $("#aba img").animate({
@@ -267,7 +267,7 @@ $(window).resize(function () {
     $("#menu").css("left", -$("#menu").width() - 2 + "px");
 
     $("#fill").css("display", "none").css("opacity", "0");
-    $("#aba img").attr("src", "img/Menu.png");
+    $("#aba img").attr("src", "img/menu.png");
     $("#aba img").attr("id", "menuIcon");
 
     aba = true;
@@ -384,7 +384,7 @@ function CloseAnimation() {
     }, 500);
 
 
-    $("#aba img").attr("src", "img/Menu.png");
+    $("#aba img").attr("src", "img/menu.png");
 
     $("#aba img").attr("id", "menuIcon");
 
