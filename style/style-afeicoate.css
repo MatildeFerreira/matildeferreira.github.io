@@ -1,0 +1,1374 @@
+.container {
+    margin-bottom: 300px;
+    overflow: auto;
+}
+
+a {
+    color: #1C5017;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+b {
+    font-weight: 800;
+    color: #185B12;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #185B12;
+    margin-bottom: 50px;
+}
+
+.FirstCollumn {
+    width: calc(50% - 100px);
+    float: left;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.FirstCollumn p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.SecondCollumn {
+    float: left;
+    margin-left: 200px;
+    width: calc(50% - 100px);
+    vertical-align: top;
+}
+
+#mockup {
+    width: 100%;
+}
+
+#second .FirstCollumn {
+    float: right;
+    padding: 0;
+    width: calc(50% - 100px);
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#destaque {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #185B12;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#date {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#course {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #185B12;
+    margin-bottom: 8px;
+}
+
+#info {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+#info h4 {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#info p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#info p:last-of-type {
+    margin-bottom: -6px;
+}
+
+#info div {
+    border-left: 2px solid #185B12;
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+
+#info img {
+    width: 15px;
+    margin-left: -9px;
+    margin-right: 10px;
+}
+
+#Software {
+    width: calc(42%)
+}
+
+#Software,
+#Programming {
+    float: left;
+    margin-right: 20px;
+}
+
+#second .SecondCollumn {
+    margin-left: 0;
+
+}
+
+#second .SecondCollumn img {
+    width: calc(100% - 100px);
+    vertical-align: top;
+    border-radius: 25px;
+}
+
+#third img {
+    float: left;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.ux {
+    float: left;
+    width: calc(50% - 100px);
+    margin-top: 100px;
+    height: 150px;
+
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+
+}
+
+.ux:nth-child(2) {
+    margin-left: 200px;
+}
+
+#third .FirstCollumn {
+    width: 100%;
+}
+
+#third .FirstCollumn p {
+    width: calc(50% - 100px);
+}
+
+#third .SecondCollumn {
+    width: 100%;
+    margin-left: 0;
+}
+
+#fourth {
+    overflow: hidden;
+}
+
+#fourth p,
+#fourth li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#wrap {
+    width: 24%;
+    box-sizing: border-box;
+    margin-right: 100px;
+    padding: 10px;
+    border: 2px solid #185B12;
+    border-radius: 25px;
+    float: left;
+
+}
+
+#portrait {
+    width: 100%;
+    border-radius: 23px;
+}
+
+#textOne {
+    margin-top: 10px;
+    width: calc(38% - 100px);
+    float: left;
+    margin-right: 100px;
+}
+
+#textTwo {
+    margin-top: 10px;
+    width: calc(38% - 100px);
+    float: left;
+}
+
+#scenarios {
+    overflow: hidden;
+    margin-left: calc(15% + 100px);
+    width: 460px;
+    border: 1px solid #185B12;
+    border-width: 0px 0px 0px 2px;
+}
+
+#scenarios h3 {
+    margin-top: -2px;
+}
+
+#scenarios h4,
+#scenarios h3,
+#scenarios p {
+    margin-left: 19px;
+}
+
+#scenarios h4 {
+    margin-top: 50px;
+}
+
+#scenarios img {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 2px;
+    width: 20px;
+}
+
+#scenarios p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+#points h4 {
+    margin-bottom: 20px;
+}
+
+#goals {
+    margin-top: 50px;
+    width: calc(38% - 100px);
+    float: left;
+    margin-right: 100px;
+}
+
+#motivations {
+    margin-top: 50px;
+    width: calc(38% - 100px);
+    float: left;
+
+}
+
+#goals img,
+#motivations img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+#sixth {
+    overflow: visible;
+    width: 100%;
+}
+
+#sixth li {
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+#sixth #secundary {
+    margin-top: 5px;
+}
+
+#sixth li img {
+    width: 13px;
+    margin-right: 10px;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: -21px;
+}
+
+#sixth h3 {
+    margin-top: -20px;
+    background-color: #FFFAF2;
+    width: max-content;
+}
+
+#sixth h3,
+#sixth h4 {
+    margin-left: 12px;
+}
+
+#sixth h4 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#sixth h3 img,
+#sixth h4 img {
+    width: 20px;
+    margin-right: 10px;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 3px;
+}
+
+#sixth h3 img {
+    margin-top: 6px;
+
+}
+
+#secundary {
+    font-weight: 300;
+}
+
+#Functionals {
+    width: calc(50% - 100px);
+    padding-right: 200px;
+    float: left;
+    border: 1px solid #185B12;
+    border-width: 2px 0px 0px 2px
+}
+
+#Informatives {
+    width: calc(50% - 100px);
+    margin-left: calc(50% + 100px);
+    border: 1px solid #185B12;
+    border-width: 0px 0px 0px 2px;
+    padding-top: 15px;
+}
+
+#seventh,
+#eigth {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#seventh {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#seventh p {
+    margin-bottom: 10px;
+}
+
+#seventh h3,
+#eigth h3 {
+    text-align: center;
+}
+
+#seventh img {
+    margin-top: 70px;
+    width: 100%;
+}
+
+#eigth p {
+    font-weight: 300;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#imagecontainer {
+    position: Relative;
+    height: 30vw;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+#eigth img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#nineth h3 {
+    text-align: center;
+}
+
+#nineth img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+iframe {
+    width: 60vw;
+    height: 33.75vw;
+    margin-left: 10vw;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#tenth p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tenth p:first-of-type {
+    font-weight: 500;
+}
+
+#tenth p:nth-child(3) {
+    font-weight: 300;
+}
+
+#eleventh img {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    border-radius: 19px;
+}
+
+#eleventh img:nth-child(2) {
+    margin-top: 100px;
+}
+
+#eleventh b {
+    font-weight: 700;
+}
+
+#twelveth {
+    padding-bottom: 20px;
+}
+
+#twelveth img {
+    width: 75%;
+    margin-left: 12.5%;
+
+}
+
+#twelveth .SecondCollumn {
+    width: 20%;
+    margin-left: 5%;
+}
+
+#twelveth .FirstCollumn {
+    width: 20%;
+    margin-left: 27.5%;
+}
+
+#twelveth button {
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 150px;
+    background-color: transparent;
+    color: #185B12;
+    border-radius: 80px;
+    border: 3px solid #185B12;
+}
+
+#twelveth button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#twelveth p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
+
+/* Small devices (Mobile) */
+@media only screen and (max-width: 480px) {
+    #first {
+        overflow: hidden;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+
+    #first .SecondCollumn,
+    #second .SecondCollumn,
+    #eleventh .SecondCollumn {
+        width: 100%;
+        margin-top: -0px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    #first .SecondCollumn {
+        margin-top: 0;
+    }
+
+    #first .FirstCollumn,
+    #second .FirstCollumn,
+    #eleventh .FirstCollumn {
+        width: 100%;
+        float: right;
+    }
+
+    #third .FirstCollumn p {
+        width: 100%;
+    }
+
+    .ux {
+        clear: both;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .ux:nth-child(2) {
+        margin-left: 0
+    }
+
+    #third img {
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    #wrap {
+        margin-bottom: 50px;
+    }
+
+    #fourth h3 {
+        text-align: Center;
+    }
+
+    #wrap {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 0;
+    }
+
+    #about {
+        text-align: center;
+
+    }
+
+    #textOne,
+    #texttwo,
+    #goals,
+    #motivations {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #second .SecondCollumn img {
+        width: 100%;
+    }
+
+    #info div:first-child {
+        margin-bottom: 60px;
+    }
+
+    #second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+
+    .next,
+    h2 {
+        display: none;
+    }
+
+    #fifth {
+        overflow: hidden;
+    }
+
+    #scenarios {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #functionals,
+    #informatives {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        border-top: none;
+    }
+
+    #seventh h3,
+    #eigth h3 {
+        text-align: left;
+    }
+
+    #seventh,
+    #eigth {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #imagecontainer {
+        height: 50vh;
+    }
+
+    #seventh img {
+        display: none;
+    }
+
+    #eigth p,
+    #nineth img,
+    #tenth,
+    #tenth p {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #twelveth button {
+        font-size: 20px;
+        height: 70px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    #twelveth .FirstCollumn,
+    #twelveth .SecondCollumn {
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+
+    #twelveth .SecondCollumn {
+        margin-left: 10px;
+    }
+
+    #tenth {
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 45vw;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    #first {
+        overflow: hidden;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+
+    #first .SecondCollumn,
+    #second .SecondCollumn,
+    #eleventh .SecondCollumn {
+        width: 100%;
+        margin-top: -0px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    #first .SecondCollumn {
+        margin-top: 0;
+    }
+
+    #first .FirstCollumn,
+    #second .FirstCollumn,
+    #eleventh .FirstCollumn {
+        width: 100%;
+        float: right;
+    }
+
+    #third .FirstCollumn p {
+        width: 100%;
+    }
+
+    .ux {
+        clear: both;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .ux:nth-child(2) {
+        margin-left: 0
+    }
+
+    #third img {
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    #wrap {
+        margin-bottom: 50px;
+        float: none;
+    }
+
+    #fourth h3 {
+        text-align: Center;
+    }
+
+    #wrap {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 0;
+    }
+
+    #about {
+        text-align: center;
+
+    }
+
+    #textOne,
+    #texttwo,
+    #goals,
+    #motivations {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #second .SecondCollumn img {
+        width: 100%;
+    }
+
+    #info div:first-child {
+        margin-bottom: 60px;
+    }
+
+    #second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+
+    .next,
+    h2 {
+        display: none;
+    }
+
+    #fifth {
+        overflow: hidden;
+    }
+
+    #scenarios {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #functionals,
+    #informatives {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        border-top: none;
+    }
+
+    #seventh h3,
+    #eigth h3 {
+        text-align: left;
+    }
+
+    #seventh,
+    #eigth {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #imagecontainer {
+        height: 50vh;
+    }
+
+    #seventh img {
+        display: none;
+    }
+
+    #eigth p,
+    #nineth img,
+    #tenth,
+    #tenth p {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #twelveth button {
+        font-size: 20px;
+        height: 70px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    #twelveth .FirstCollumn,
+    #twelveth .SecondCollumn {
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+
+    #twelveth .SecondCollumn {
+        margin-left: 10px;
+    }
+
+    #tenth {
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 45vw;
+        margin-left: 0;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    main {
+        padding-top: 200px;
+    }
+
+
+    #first .SecondCollumn,
+    #second .SecondCollumn {
+        width: 80%;
+        margin-top: -0px;
+        margin-left: 10%;
+        margin-top: 50px;
+
+    }
+
+
+    #first .FirstCollumn,
+    #second .FirstCollumn {
+        width: 80%;
+        margin-left: 10%;
+        float: none;
+    }
+
+    #second .SecondCollumn img {
+        width: 100%;
+    }
+
+    #third .FirstCollumn p {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+
+    }
+
+    #third h3 {
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .ux {
+        clear: both;
+        float: none;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .ux:nth-child(2) {
+        margin-left: 10%;
+    }
+
+    #third img {
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    #info div:first-child {
+        margin-bottom: 60px;
+    }
+
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+
+    .next {
+        display: none;
+    }
+
+    #fourth h3 {
+        text-align: center;
+    }
+
+    #wrap {
+        margin-bottom: 50px;
+    }
+
+    #wrap {
+        width: 40%;
+        margin-left: 30%;
+        overflow: hidden;
+    }
+
+    #wrap img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #fourth h4 {
+        float: none;
+        clear: both;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #textOne,
+    #goals {
+        width: calc(50% - 25px);
+        margin-right: 50px;
+
+    }
+
+    #motivations,
+    #texttwo {
+        width: calc(50% - 25px);
+    }
+
+    #goals h4,
+    #motivations h4 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    #texttwo {
+        margin-right: 0;
+    }
+
+    #fifth {
+        overflow: hidden;
+    }
+
+    #scenarios {
+        width: 80%;
+        margin-left: 0;
+
+    }
+
+    #seventh {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #Functionals {
+        padding-right: 50px;
+        width: calc(50% - 25px);
+    }
+
+    #Informatives {
+        width: calc(50% - 25px);
+        margin-left: calc(50% + 25px);
+
+    }
+
+    #seventh {
+        overflow: visible;
+    }
+
+    #seventh img {
+        width: 120%;
+        margin-left: -10%
+    }
+
+    #eigth,
+    #nineth img,
+    #tenth {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #tenth p {
+        text-align: left;
+    }
+
+    #imagecontainer {
+        height: 50vh;
+    }
+
+    #eleventh .FirstCollumn,
+    #eleventh .SecondCollumn {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #eleventh .SecondCollumn {
+        margin-top: 50px;
+    }
+
+    #twelveth button {
+        font-size: 20px;
+        height: 70px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    #twelveth .FirstCollumn,
+    #twelveth .SecondCollumn {
+        width: calc(50% - 50px);
+        margin-left: 0;
+    }
+
+    #twelveth .SecondCollumn {
+        margin-left: 50px;
+    }
+
+    #tenth {
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 45vw;
+        margin-left: 0;
+    }
+}
+
+
+
+/* Medium devices (Tablet-portrait (and larger)) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #first {
+        overflow: hidden;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+    #first .SecondCollumn,
+    #second .SecondCollumn {
+        width: 70%;
+        margin-top: -0px;
+        margin-left: 15%;
+        margin-top: 50px;
+
+    }
+
+    #second .SecondCollumn img {
+        width: 100%;
+    }
+
+    #first .FirstCollumn,
+    #second .FirstCollumn {
+        width: 70%;
+        margin-left: 15%;
+        float: none;
+    }
+
+
+    #third .FirstCollumn p {
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+
+    }
+
+    #third h3 {
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    .ux {
+        clear: both;
+        float: none;
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        text-align: Center;
+    }
+
+    .ux:nth-child(2) {
+        margin-left: 15%;
+    }
+
+    #third img {
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    #info div:first-child {
+        margin-bottom: 60px;
+    }
+
+    #second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+    #fourth h3 {
+        text-align: center;
+    }
+
+    #wrap {
+        margin-bottom: 50px;
+    }
+
+    #wrap {
+        width: 40%;
+        margin-left: 30%;
+        overflow: hidden;
+    }
+
+    #wrap img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #fourth h4 {
+        float: none;
+        clear: both;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #textOne,
+    #texttwo,
+    #goals,
+    #motivations {
+        width: calc(50% - 50px);
+        margin-right: 50px;
+
+    }
+
+    #goals h4,
+    #motivations h4 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    #texttwo {
+        margin-right: 0;
+    }
+
+    #fifth {
+        overflow: hidden;
+    }
+
+    #scenarios {
+        width: 70%;
+        margin-left: 0;
+
+    }
+
+    #seventh {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #Functionals {
+        padding-right: 50px;
+        width: calc(50% - 25px);
+    }
+
+    #Informatives {
+        width: calc(50% - 25px);
+        margin-left: calc(50% + 25px);
+
+    }
+
+    #seventh {
+        overflow: visible;
+    }
+
+    #seventh img {
+        width: 125%;
+        margin-left: -15%
+    }
+
+    #eigth,
+    #nineth img,
+    #tenth {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #tenth p {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #imagecontainer {
+        height: 50vh;
+    }
+
+    #eleventh .FirstCollumn,
+    #eleventh .SecondCollumn {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #eleventh .SecondCollumn {
+        margin-top: 50px;
+    }
+
+    #twelveth {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #twelveth button {
+        font-size: 20px;
+        height: 70px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    #twelveth .FirstCollumn,
+    #twelveth .SecondCollumn {
+        width: calc(50% - 50px);
+        margin-left: 0;
+    }
+
+    #twelveth .SecondCollumn {
+        margin-left: 50px;
+    }
+
+    #tenth {
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 45vw;
+        margin-left: 0;
+    }
+
+
+
+}
+
+/* Medium devices (Tablet-portrait (and larger)) */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+
+    #first .SecondCollumn {
+        width: calc(50% - 50px);
+        margin-left: 50px;
+    }
+
+    #second .SecondCollumn img {
+        width: 100%;
+    }
+
+    #mockup {
+        width: 100%;
+    }
+
+    #first .FirstCollumn {
+        width: 50%;
+    }
+
+    #second .FirstCollumn {
+        width: calc(50% - 0px);
+    }
+
+    .ux {
+        width: calc(50% - 50px);
+        height: auto;
+    }
+
+    .ux:nth-child(2) {
+        margin-left: 100px;
+    }
+
+    #wrap,
+    #motivations {
+        width: calc((100% - 100px) / 3);
+    }
+
+    #textOne,
+    #textTwo {
+        width: calc((100% - 100px) / 3);
+    }
+
+    #wrap,
+    #textOne {
+        margin-right: 50px;
+    }
+
+    #goals {
+        width: calc((100% - 100px) / 3);
+        margin-right: 50px;
+    }
+
+    #scenarios {
+        margin-left: calc((100% - 100px) / 3 + 50px);
+    }
+
+    #seventh img {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    #seventh {
+        overflow: visible;
+    }
+
+    #nineth img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #twelveth {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #twelveth button {
+        font-size: 20px;
+        height: 70px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    #twelveth .FirstCollumn,
+    #twelveth .SecondCollumn {
+        width: calc(50% - 50px);
+        margin-left: 0;
+    }
+
+    #twelveth .SecondCollumn {
+        margin-left: 50px;
+    }
+}
