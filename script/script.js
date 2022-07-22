@@ -143,13 +143,13 @@ $("#next").mouseleave(function () {
 $("#previous").mouseenter(function () {
 
     if (checking == true) {
-        $(this).attr("src", "img/previous_clicked.png");
+        $(this).attr("src", "img/Previous_Clicked.png");
     }
 })
 
 $("#previous").mouseleave(function () {
     if (checking == true) {
-        $(this).attr("src", "img/previous.png");
+        $(this).attr("src", "img/Previous.png");
     }
 });
 
@@ -219,7 +219,7 @@ $("#previous").click(function () {
     worksPos();
 
     //Mudar cor da seta
-    $(this).attr("src", "img/Previous_clicked.png");
+    $(this).attr("src", "img/Previous_Clicked.png");
 
     setTimeout(function () {
 
