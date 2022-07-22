@@ -1,9 +1,10 @@
+
+$(document).ready(function(e) {   
 let imgScroll = -$("#imagecontainer img").height();
 let imgContainer = $("#imagecontainer").height();
 let speed = $("#imagecontainer img").height() * 10;
-
-
-function loop() {
+    
+    function loop() {
 
     $('#imagecontainer img').animate({
         top: imgScroll + imgContainer + "px"
@@ -25,3 +26,5 @@ function loop() {
 
 
 loop();
+
+ });
