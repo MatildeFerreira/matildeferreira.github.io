@@ -1,4 +1,6 @@
-let imgScroll = -$("#imagecontainer img").width();
+ $(document).ready(function(e) { 
+     
+     let imgScroll = -$("#imagecontainer img").width();
 let imgContainer = $("#imagecontainer").width();
 let speed = $("#imagecontainer img").width() * 3;
 
@@ -26,3 +28,4 @@ function loop() {
 
 loop();
 
+ });
