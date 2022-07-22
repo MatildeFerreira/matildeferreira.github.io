@@ -375,6 +375,7 @@ function scroll(e) {
                 });
 
                 $("#mintinsight").click(function () {
+                    console.log("clicked");
                     AnimationsClose();
 
                     setTimeout(function () {
@@ -383,6 +384,7 @@ function scroll(e) {
                 });
 
                 $("#uparte").click(function () {
+                     console.log("clicked");
                     AnimationsClose();
 
                     setTimeout(function () {
