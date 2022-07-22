@@ -93,7 +93,7 @@ $(document).on("click", "#aba", function () {
 $(document).on("click", "#fill", function () {
 
     $("#menu").animate({
-        left: "-502px"
+        left: -$("#menu").width() - 2 + "px"
     }, 800);
 
     $("#fill").animate({
