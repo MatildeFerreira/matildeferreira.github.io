@@ -1,4 +1,4 @@
-
+$(document).ready(function(e) {   
 let imgScroll = -$("#imagecontainer img").height();
 let imgContainer = $("#imagecontainer").height();
 let speed = $("#imagecontainer img").height() * 10;
@@ -65,3 +65,5 @@ $(document).on("click", "#four", function () {
     $(".opened img").attr('src', "img/circulo%20preenchido.png");
     $('iframe').attr('src', "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fgy6KKogoyOSmJM5S6naVjI%2FSky-Tales---Prototype%3Fpage-id%3D129%253A84123%26node-id%3D129%253A96797%26viewport%3D851%252C523%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D129%253A96797")
 });
+    
+     });
