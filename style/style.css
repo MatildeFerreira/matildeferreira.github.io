@@ -75,7 +75,8 @@ a {
 main {
     margin-top: 230px;
     width: 100%;
-     overflow-x: hidden;
+    overflow-x: visible;
+    overflow-y:hidden;
 }
 
 #menu {
