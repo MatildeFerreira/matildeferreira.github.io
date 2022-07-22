@@ -500,7 +500,11 @@ iframe {
     main {
         padding-top: 200px;
     }
-
+    
+    #Software,
+    #Programming {
+        width: 100%;
+    }
 
     #first .SecondCollumn,
     #second .SecondCollumn,
