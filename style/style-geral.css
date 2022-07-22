@@ -81,7 +81,8 @@ main {
     box-sizing: border-box;
     padding-top: 250px;
     opacity: 0;
-     overflow-x: hidden;
+     overflow-x: visible;
+    overflow-y:hidden;
 }
 
 #menu {
