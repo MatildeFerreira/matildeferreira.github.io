@@ -296,9 +296,10 @@ $(document).on("click", "h2",
             checking = false;
             $(".next").attr("src", "img/About_Clicked.png");
 
-            $('html,body').animate({
-               scrollTop: 0
-            }, 1000, "linear");
+ window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
             $(".next").css("pointer-events", "none");
 
@@ -322,9 +323,10 @@ $(document).on("click", ".next", function () {
     checking = false;
     $(".next").attr("src", "img/About_Clicked.png");
 
-    $('html,body').animate({
-        scrollTop: 0
-    }, 1000, "linear");
+ window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
     $(".next").css("pointer-events", "none");
 
