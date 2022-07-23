@@ -226,6 +226,10 @@ h4 {
     h2 {
         display: none;
     }
+    
+        #Software, #Programming{
+        width:100%;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
