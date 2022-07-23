@@ -106,7 +106,7 @@ let mintinsight = uparte + $("#anathema").width() + worksMargin;
 $(window).resize(function () {
     changeName();
 
-    marginBody = parseFloat($('body').css("marginRight").replace("px", ""))
+    marginBody = parseFloat($('main').css("marginRight").replace("px", ""))
 
     worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
 
