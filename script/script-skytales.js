@@ -1,33 +1,6 @@
 $(document).ready(function(e) {   
-let imgScroll = -$("#imagecontainer img").height();
-let imgContainer = $("#imagecontainer").height();
-let speed = $("#imagecontainer img").height() * 10;
-
-
-function loop() {
-
-    $('#imagecontainer img').animate({
-        top: imgScroll + imgContainer + "px"
-
-    }, speed, "linear", function () {
-
-        imgScroll = -$("#imagecontainer img").height();
-        imgContainer = $("#imagecontainer").height();
-        speed = $("#imagecontainer img").height() * 10;
-
-        $('#imagecontainer img').animate({
-            top: '0%',
-        }, speed, 'linear', function () {
-            loop();
-        });
-
-    });
-}
-
-
-loop();
-
-$(document).on("click", "#one", function () {
+    
+    $(document).on("click", "#one", function () {
     $(".opened").addClass("notopened").removeClass("opened");
     $(".notopened img").attr('src', "img/circulo.png");
     $("#one").addClass("opened").removeClass("notopened");
@@ -65,5 +38,35 @@ $(document).on("click", "#four", function () {
     $(".opened img").attr('src', "img/circulo%20preenchido.png");
     $('iframe').attr('src', "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fgy6KKogoyOSmJM5S6naVjI%2FSky-Tales---Prototype%3Fpage-id%3D129%253A84123%26node-id%3D129%253A96797%26viewport%3D851%252C523%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D129%253A96797")
 });
+    
+    
+let imgScroll = -$("#imagecontainer img").height();
+let imgContainer = $("#imagecontainer").height();
+let speed = $("#imagecontainer img").height() * 10;
+
+
+function loop() {
+
+    $('#imagecontainer img').animate({
+        top: imgScroll + imgContainer + "px"
+
+    }, speed, "linear", function () {
+
+        imgScroll = -$("#imagecontainer img").height();
+        imgContainer = $("#imagecontainer").height();
+        speed = $("#imagecontainer img").height() * 10;
+
+        $('#imagecontainer img').animate({
+            top: '0%',
+        }, speed, 'linear', function () {
+            loop();
+        });
+
+    });
+}
+
+
+loop();
+
     
      });
