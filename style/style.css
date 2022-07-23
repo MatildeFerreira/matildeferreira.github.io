@@ -1,10 +1,14 @@
+html{
+    overflow:hidden;   
+}
+
 body {
     background-color: #FFFAF2;
     font-family: 'lato', sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    overflow: hidden;
     user-select: none;
 }
 
@@ -23,6 +27,7 @@ header {
     position: fixed;
     width: 0;
     height: 120px;
+    margin-left:10%;
     border-bottom: 2px solid #185B12;
     background-color: #FFFAF2;
     top: 0;
@@ -74,9 +79,8 @@ a {
 
 main {
     margin-top: 230px;
-    width: 100%;
-    overflow-x: visible;
-    overflow-y:hidden;
+    width: 80%;
+    margin-left:10%;
 }
 
 #menu {
@@ -234,6 +238,7 @@ footer {
     width: 80%;
     height: 25px;
     padding-top: 7px;
+    margin-left:10%;
     box-sizing: border-box;
     border-top: 1px solid #000;
     background-color: #FFFAF2;
