@@ -123,7 +123,7 @@ $(window).resize(function () {
     mintinsight = uparte + $("#anathema").width() + worksMargin;
 
     $("#works").offset({
-        left: marginBody
+        left: 0
     });
 
 });
@@ -289,18 +289,18 @@ function scroll(e) {
 
             //Valor mínimo em que é possível arrastar
             if (left > marginBody) {
-                left = marginBody;
+                left = 0;
 
                 //Valor máximo em que é possível arrastar    
-            } else if (left < desenhameumpoema + marginBody) {
+            } else if (left < desenhameumpoema) {
 
-                left = desenhameumpoema + marginBody;
+                left = desenhameumpoema;
             }
 
             if ($("#UI").hasClass("menuClicked")) {
-                if (left < uparte + marginBody) {
+                if (left < uparte) {
 
-                    left = uparte + marginBody;
+                    left = uparte;
                 }
             }
 
@@ -332,7 +332,7 @@ function scroll(e) {
             if (left >= anathema) {
                 HideArrow("#previous");
 
-            } else if (left < uparte - marginBody) {
+            } else if (left < uparte) {
                 HideArrow("#next");
 
             } else {
@@ -342,7 +342,7 @@ function scroll(e) {
             }
 
             if ($("#UI").hasClass("menuClicked")) {
-                if (left <= uparte + marginBody) {
+                if (left <= uparte) {
                     HideArrow("#next");
                 }
             }
@@ -495,7 +495,7 @@ $("#UI").click(function () {
     if ($("#GD").hasClass("menuClicked")) {
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: mintinsight + marginBody
+                left: mintinsight
             });
 
         }
@@ -578,7 +578,7 @@ $("#GD").click(function () {
         $(".UI").hide();
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: marginBody
+                left: 0
             });
         }
 
@@ -594,7 +594,7 @@ $("#all").on("click", function () {
 
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: mintinsight + marginBody
+                left: mintinsight + 0
             });
 
         }
