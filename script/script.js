@@ -83,7 +83,7 @@ let left;
 var worksOffset;
 
 //Margem do body
-let marginBody = parseFloat($('body').css("marginRight").replace("px", ""))
+let marginBody = parseFloat($('main').css("marginRight").replace("px", ""))
 
 //Margem entre os trabalhos
 let worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
