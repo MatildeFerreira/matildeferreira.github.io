@@ -270,7 +270,7 @@ $(document).on('touchstart mousedown', "#works", scroll);
 //Função dar scroll nos diferentes trabalhos
 function scroll(e) {
 
-    if ($(window).width() > 768) {
+    if ($(window).width() > 1024) {
         //Objeto com valores do draging
         window.my_dragging = {};
 
@@ -493,7 +493,7 @@ $("#UI").click(function () {
     nrClick = 0;
 
     if ($("#GD").hasClass("menuClicked")) {
-        if ($(window).width() > 768) {
+        if ($(window).width() > 1024) {
             $("#works").offset({
                 left: mintinsight + marginBody
             });
@@ -528,7 +528,7 @@ $("#UI").click(function () {
         opacity: "1"
     }, 800);
 
-    if ($(window).width() > 768) {
+    if ($(window).width() > 1024) {
         $("#works").animate({
             left: anathema
         }, 800);
@@ -569,14 +569,14 @@ $("#GD").click(function () {
     $(".GD").show().animate({
         opacity: "1"
     }, 800);
-    if ($(window).width() > 768) {
+    if ($(window).width() > 1024) {
         $("#works").animate({
             left: mintinsight
         }, 800);
     }
     setTimeout(function () {
         $(".UI").hide();
-        if ($(window).width() > 768) {
+        if ($(window).width() > 1024) {
             $("#works").offset({
                 left: marginBody
             });
@@ -592,7 +592,7 @@ $("#all").on("click", function () {
 
     if ($("#GD").hasClass("menuClicked")) {
 
-        if ($(window).width() > 768) {
+        if ($(window).width() > 1024) {
             $("#works").offset({
                 left: mintinsight + marginBody
             });
@@ -625,7 +625,7 @@ $("#all").on("click", function () {
         opacity: "1"
     }, 800);
 
-    if ($(window).width() > 768) {
+    if ($(window).width() > 1024) {
         $("#works").animate({
             left: anathema
         }, 800);
@@ -637,7 +637,7 @@ $("#all").on("click", function () {
 });
 
 function changeName() {
-    if ($(window).width() <= 768) {
+    if ($(window).width() <= 1024) {
         $("h1").html("Matilde F.")
     } else {
         $("h1").html("Matilde Ferreira")
