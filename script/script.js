@@ -264,12 +264,12 @@ function worksPos() {
         left: worksOffset
     }, 800);
 }
-
-$('#works').on('touchstart mousedown', scroll);
+$(document).on('touchstart mousedown', "#works", scroll);
 
 
 //Função dar scroll nos diferentes trabalhos
 function scroll(e) {
+
     if ($(window).width() > 768) {
         //Objeto com valores do draging
         window.my_dragging = {};
@@ -375,7 +375,7 @@ function scroll(e) {
                 });
 
                 $("#mintinsight").click(function () {
-                    console.log("clicked");
+
                     AnimationsClose();
 
                     setTimeout(function () {
@@ -384,7 +384,7 @@ function scroll(e) {
                 });
 
                 $("#uparte").click(function () {
-                    console.log("clicked");
+
                     AnimationsClose();
 
                     setTimeout(function () {
@@ -451,7 +451,7 @@ function scroll(e) {
         });
 
         $("#mintinsight").click(function () {
-            console.log("clicked");
+
             AnimationsClose();
 
             setTimeout(function () {
@@ -460,7 +460,7 @@ function scroll(e) {
         });
 
         $("#uparte").click(function () {
-            console.log("clicked");
+
             AnimationsClose();
 
             setTimeout(function () {
