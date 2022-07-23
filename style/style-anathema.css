@@ -635,6 +635,10 @@ iframe {
     h2 {
         display: none;
     }
+    
+    #Software, #Programming{
+        width:100%;
+    }
 
 }
 
