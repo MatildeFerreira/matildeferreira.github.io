@@ -1,5 +1,6 @@
 let checking = true;
 // Home Page
+
 changeName();
 
 $(window).on('load', function () {
@@ -10,7 +11,7 @@ $(window).on('load', function () {
             width: "80%"
         }, 500);
     }, 500);
-    
+
     setTimeout(function () {
         $("h1, #about").animate({
             opacity: "1"
@@ -383,7 +384,7 @@ function scroll(e) {
                 });
 
                 $("#uparte").click(function () {
-                     console.log("clicked");
+                    console.log("clicked");
                     AnimationsClose();
 
                     setTimeout(function () {
@@ -424,6 +425,64 @@ function scroll(e) {
             .on('mousemove', handle_dragging)
             .one('touchend', handle_mouseup)
             .on('touchmove', handle_dragging);
+    } else {
+        $("#anathema").click(function () {
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/anathema.html";
+            }, 1500);
+        });
+
+        $("#afeicoate").click(function () {
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/afeicoate.html";
+            }, 1500);
+        });
+
+        $("#skytales").click(function () {
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/skytales.html";
+            }, 1500);
+        });
+
+        $("#mintinsight").click(function () {
+            console.log("clicked");
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/mintinsight.html";
+            }, 1500);
+        });
+
+        $("#uparte").click(function () {
+            console.log("clicked");
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/uparte.html";
+            }, 1500);
+        });
+
+        $("#ggwp").click(function () {
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/ggwp.html";
+            }, 1500);
+        });
+
+        $("#desenhameumpoema").click(function () {
+            AnimationsClose();
+
+            setTimeout(function () {
+                location.href = "/desenhameumpoema.html";
+            }, 1500);
+        });
     }
 }
 
@@ -434,9 +493,12 @@ $("#UI").click(function () {
     nrClick = 0;
 
     if ($("#GD").hasClass("menuClicked")) {
-        $("#works").offset({
-            left: mintinsight + marginBody
-        });
+        if ($(window).width() > 768) {
+            $("#works").offset({
+                left: mintinsight + marginBody
+            });
+
+        }
     }
 
     ShowArrow("#next");
@@ -466,10 +528,11 @@ $("#UI").click(function () {
         opacity: "1"
     }, 800);
 
-    $("#works").animate({
-        left: anathema
-    }, 800);
-
+    if ($(window).width() > 768) {
+        $("#works").animate({
+            left: anathema
+        }, 800);
+    }
 
     setTimeout(function () {
         $(".GD").hide();
@@ -506,16 +569,18 @@ $("#GD").click(function () {
     $(".GD").show().animate({
         opacity: "1"
     }, 800);
-
-    $("#works").animate({
-        left: mintinsight
-    }, 800);
-
+    if ($(window).width() > 768) {
+        $("#works").animate({
+            left: mintinsight
+        }, 800);
+    }
     setTimeout(function () {
         $(".UI").hide();
-        $("#works").offset({
-            left: marginBody
-        });
+        if ($(window).width() > 768) {
+            $("#works").offset({
+                left: marginBody
+            });
+        }
 
         $("#UI, #all").css("pointer-events", "all")
 
@@ -526,9 +591,13 @@ $("#GD").click(function () {
 $("#all").on("click", function () {
 
     if ($("#GD").hasClass("menuClicked")) {
-        $("#works").offset({
-            left: mintinsight + marginBody
-        });
+
+        if ($(window).width() > 768) {
+            $("#works").offset({
+                left: mintinsight + marginBody
+            });
+
+        }
     }
 
 
@@ -556,9 +625,11 @@ $("#all").on("click", function () {
         opacity: "1"
     }, 800);
 
-    $("#works").animate({
-        left: anathema
-    }, 800);
+    if ($(window).width() > 768) {
+        $("#works").animate({
+            left: anathema
+        }, 800);
+    }
 
     setTimeout(function () {
         $("#GD, #UI").css("pointer-events", "all")
