@@ -343,6 +343,10 @@ iframe {
     #seventh {
         overflow: Hidden;
     }
+    
+        #Software, #Programming, #Code{
+        width:100%;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
