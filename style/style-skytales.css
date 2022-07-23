@@ -375,8 +375,8 @@ h4 {
 }
 
 #tenth img {
-    width: 50%;
-    float: left;
+    width: calc(50% - 3px);
+    display: inline-block;
 }
 
 #eleventh {
