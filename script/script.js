@@ -83,7 +83,6 @@ let left;
 var worksOffset;
 
 //Margem do body
-let marginBody = parseFloat($('main').css("marginRight").replace("px", ""))
 
 //Margem entre os trabalhos
 let worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
@@ -105,8 +104,6 @@ let mintinsight = uparte + $("#anathema").width() + worksMargin;
 //Atualizar variáveis quando a janela é redimensionada
 $(window).resize(function () {
     changeName();
-
-    marginBody = parseFloat($('main').css("marginRight").replace("px", ""))
 
     worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
 
@@ -288,7 +285,7 @@ function scroll(e) {
 
 
             //Valor mínimo em que é possível arrastar
-            if (left > marginBody) {
+            if (left > 0) {
                 left = 0;
 
                 //Valor máximo em que é possível arrastar    
