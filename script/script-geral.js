@@ -297,7 +297,7 @@ $(document).on("click", "h2",
             $(".next").attr("src", "img/About_Clicked.png");
 
             $('html,body').animate({
-                scrollTop: $("main").offset().top
+               scrollTop: 0
             }, 1000, "linear");
 
             $(".next").css("pointer-events", "none");
@@ -323,7 +323,7 @@ $(document).on("click", ".next", function () {
     $(".next").attr("src", "img/About_Clicked.png");
 
     $('html,body').animate({
-        scrollTop: $("main").offset().top
+        scrollTop: 0
     }, 1000, "linear");
 
     $(".next").css("pointer-events", "none");
