@@ -637,7 +637,7 @@ $("#all").on("click", function () {
 });
 
 function changeName() {
-    if ($(window).width() <= 1024) {
+    if ($(window).width() <= 769) {
         $("h1").html("Matilde F.")
     } else {
         $("h1").html("Matilde Ferreira")
