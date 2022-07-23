@@ -435,8 +435,46 @@ footer {
 /* Medium devices (Tablet-portrait (and larger)) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-    #works {
-        width: 500%;
+ #works {
+        width: 100%;
+    }
+
+    main {
+        margin-bottom: 100px;
+        margin-top: 180px;
+    }
+
+    #menu ul li {
+        margin-bottom: 70px;
+    }
+
+    #afeicoate,
+    #skytales,
+    #mintinsight,
+    #uparte,
+    #ggwp,
+    #anathema,
+    #desenhameumpoema {
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    #next,
+    #previous {
+        display: none;
+    }
+
+    #container:hover {
+        margin-top: 0;
+
+    }
+
+    #UI,
+    #GD,
+    #all {
+        padding-left: 20px;
+        padding-right: 18px;
     }
 
     header {
