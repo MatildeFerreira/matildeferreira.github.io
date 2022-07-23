@@ -49,8 +49,7 @@ function AnimationsClose() {
 
 
     $("#works").animate({
-        opacity: "0",
-        marginLeft: "100%"
+        opacity: "0"
     }, 1000);
 
     $("#menu, #next, #previous").animate({
