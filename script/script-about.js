@@ -23,10 +23,11 @@ function ScrollBotom() {
         }, 250);
 
     }, 600);
-
-    $('html,body').animate({
-        scrollTop: document.body.scrollHeight
-    }, 1200, "linear");
+    
+window.scrollTo({
+        bottom: 0,
+        behavior: "smooth"
+    });
 
 }
 
@@ -55,9 +56,10 @@ function ScrollTop() {
 
     }, 600);
 
-    $('html,body').animate({
-        scrollTop: $("main").offset().top
-    }, 600, "linear");
+window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
 
 $(window).on('scroll', function () {
