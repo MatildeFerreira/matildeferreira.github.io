@@ -476,7 +476,10 @@ footer {
         padding-left: 20px;
         padding-right: 18px;
     }
-
+     #hideH {
+        height: 100px;
+    }
+    
     header {
         height: 100px;
     }
@@ -523,6 +526,10 @@ footer {
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1500px) {
+     #hideH {
+        height: 110px;
+    }
+    
 
     header {
         height: 110px;
