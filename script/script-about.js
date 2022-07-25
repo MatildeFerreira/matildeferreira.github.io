@@ -64,8 +64,6 @@ window.scrollTo({
 
 $(window).on('scroll', function () {
     if ($(window).width() > 769) {
-        console.log($(window).width());
-        console.log("it is");
         var scrollHeight = $(document).height();
         var scrollPosition = parseInt($(window).height() + $(window).scrollTop());
         var scrollMid = (scrollHeight - scrollPosition) / 2;
