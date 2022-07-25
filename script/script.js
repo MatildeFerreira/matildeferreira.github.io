@@ -119,9 +119,7 @@ $(window).resize(function () {
 
     mintinsight = uparte + $("#anathema").width() + worksMargin;
 
-    $("#works").offset({
-        left: 0
-    });
+    $("#works").css("left", "0");
 
 });
 
@@ -574,10 +572,7 @@ $("#GD").click(function () {
     setTimeout(function () {
         $(".UI").hide();
         if ($(window).width() > 1024) {
-            $("#works").offset({
-                left: 0
-            });
-        }
+            $("#works").css("left", "0");
 
         $("#UI, #all").css("pointer-events", "all")
 
@@ -591,7 +586,7 @@ $("#all").on("click", function () {
 
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: mintinsight + 0
+                left: mintinsight
             });
 
         }
