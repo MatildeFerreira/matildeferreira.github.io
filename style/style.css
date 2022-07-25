@@ -499,6 +499,15 @@ footer {
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+        main #menu li{
+        margin-bottom:25px;
+    }
+    
+    main{
+        margin-top: 160px;
+    }
+    
     #hideH {
         height: 110px;
     }
@@ -526,6 +535,14 @@ footer {
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    main #menu li{
+        margin-bottom:25px;
+    }
+    
+    main{
+        margin-top: 160px;
+    }
+        
      #hideH {
         height: 110px;
     }
