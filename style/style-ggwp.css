@@ -248,15 +248,6 @@ video {
     cursor: pointer;
 }
 
-.next {
-    width: 50px;
-    cursor: pointer;
-    position: fixed;
-    right: 3%;
-    bottom: 100px;
-    opacity: 1;
-}
-
 iframe {
     width: 60vw;
     height: 33.75vw;
