@@ -25,7 +25,7 @@ function ScrollBotom() {
     }, 600);
     
 window.scrollTo({
-        bottom: 0,
+        top: $(document).height(),
         behavior: "smooth"
     });
 
