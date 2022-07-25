@@ -304,8 +304,6 @@ function scroll(e) {
 
             if ($("#GD").hasClass("menuClicked")) {
                 left = marginbody;
-                HideArrow("#next");
-                HideArrow("#previous");
             }
 
 
@@ -332,11 +330,16 @@ function scroll(e) {
         function handle_mouseup(e) {
 
             left = my_dragging.offset0.left + (e.pageX - my_dragging.pageX0);
+            console.log(left, anathema, uparte);
 
             if (left >= anathema) {
                 HideArrow("#previous");
 
             } else if (left < uparte) {
+                HideArrow("#next");
+
+            } else if ($("#GD").hasClass("menuClicked")) {
+                HideArrow("#previous");
                 HideArrow("#next");
 
             } else {
@@ -346,6 +349,7 @@ function scroll(e) {
             }
 
             if ($("#UI").hasClass("menuClicked")) {
+
                 if (left <= uparte) {
                     HideArrow("#next");
                 }
@@ -495,6 +499,8 @@ function scroll(e) {
 
 $("#UI").click(function () {
     HideArrow("#previous");
+    ShowArrow("#next");
+
     $('#UI').css("pointer-events", "none");
     nrClick = 0;
 
@@ -602,6 +608,8 @@ $("#GD").click(function () {
 
 $("#all").on("click", function () {
     HideArrow("#previous");
+    ShowArrow("#next");
+
     $('#all').css("pointer-events", "none");
 
     if ($("#GD").hasClass("menuClicked")) {
