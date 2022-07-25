@@ -330,9 +330,9 @@ function scroll(e) {
         function handle_mouseup(e) {
 
             left = my_dragging.offset0.left + (e.pageX - my_dragging.pageX0);
-            console.log(left, anathema, uparte);
 
-            if (left >= anathema) {
+
+            if (left > anathema) {
                 HideArrow("#previous");
 
             } else if (left < uparte) {
@@ -342,18 +342,15 @@ function scroll(e) {
                 HideArrow("#previous");
                 HideArrow("#next");
 
+            } else if ($("#UI").hasClass("menuClicked") && left < skytales) {
+                HideArrow("#next");
+
             } else {
                 ShowArrow("#previous");
                 ShowArrow("#next");
 
             }
 
-            if ($("#UI").hasClass("menuClicked")) {
-
-                if (left <= uparte) {
-                    HideArrow("#next");
-                }
-            }
 
             //Se não houve arrastamento, redirecionar para a página do trabalho clicado
             if (e.pageX - my_dragging.pageX0 === 0) {
@@ -622,8 +619,8 @@ $("#all").on("click", function () {
         }
     }
 
+
     nrClick = 0;
-    
     ShowArrow("#next");
 
     $('#works').mousedown(scroll);
