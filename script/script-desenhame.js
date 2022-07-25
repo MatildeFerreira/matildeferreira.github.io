@@ -10,7 +10,7 @@ $(window).on("load", function () {
 
 let imgScroll = -$("#imagecontainer img").width();
 let imgContainer = $("#imagecontainer").width();
-let speed = $("#imagecontainer img").width() * 3;
+let speed = $("#imagecontainer img").width() * 10;
 
 function loop() {
 
@@ -21,7 +21,7 @@ function loop() {
 
         imgScroll = -$("#imagecontainer img").width();
         imgContainer = $("#imagecontainer").width();
-        speed = $("#imagecontainer img").width() * 3;
+        speed = $("#imagecontainer img").width() * 10;
 
         $('#imagecontainer img').animate({
             marginLeft: '0%',
