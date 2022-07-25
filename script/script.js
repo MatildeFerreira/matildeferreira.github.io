@@ -622,8 +622,8 @@ $("#all").on("click", function () {
         }
     }
 
-
     nrClick = 0;
+    
     ShowArrow("#next");
 
     $('#works').mousedown(scroll);
