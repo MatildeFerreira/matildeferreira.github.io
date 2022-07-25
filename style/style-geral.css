@@ -361,7 +361,11 @@ footer {
     #aba img {
         height: 17px;
     }
-
+    
+    main {
+        padding-top:200px;
+    }
+    
     #hideH {
         height: 100px;
     }
@@ -404,7 +408,11 @@ footer {
     header {
         height: 110px;
     }
-
+    
+    main {
+        padding-top:200px;
+    }
+    
     h1 {
         font-size: 45px;
     }
@@ -430,7 +438,11 @@ footer {
     #aba img {
         height: 18px;
     }
-
+    
+    main {
+    padding-top:200px;
+    }
+    
     #hideH {
         height: 110px;
     }
