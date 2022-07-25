@@ -1,9 +1,16 @@
- $(document).ready(function(e) { 
-     
-     let imgScroll = -$("#imagecontainer img").width();
+$(window).on("load", function () {
+
+    $('#imagecontainer img').css("marginLeft", "0");
+
+    setTimeout(function () {
+        loop();
+    }, 1000);
+
+});
+
+let imgScroll = -$("#imagecontainer img").width();
 let imgContainer = $("#imagecontainer").width();
 let speed = $("#imagecontainer img").width() * 3;
-
 
 function loop() {
 
@@ -24,8 +31,3 @@ function loop() {
 
     });
 }
-
-
-loop();
-
- });
