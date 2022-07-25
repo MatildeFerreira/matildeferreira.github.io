@@ -83,6 +83,7 @@ let left;
 var worksOffset;
 
 //Margem do body
+let marginbody = parseFloat($("main").css('marginLeft').replace("px", ""));
 
 //Margem entre os trabalhos
 let worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
@@ -104,6 +105,8 @@ let mintinsight = uparte + $("#anathema").width() + worksMargin;
 //Atualizar variáveis quando a janela é redimensionada
 $(window).resize(function () {
     changeName();
+
+    marginbody = parseFloat($("main").css('marginLeft').replace("px", ""));
 
     worksMargin = parseFloat($('#anathema').css("marginRight").replace("px", ""));
 
@@ -283,20 +286,26 @@ function scroll(e) {
 
 
             //Valor mínimo em que é possível arrastar
-            if (left > 0) {
-                left = 0;
+            if (left > marginbody) {
+                left = marginbody;
 
                 //Valor máximo em que é possível arrastar    
-            } else if (left < desenhameumpoema) {
+            } else if (left < desenhameumpoema + marginbody) {
 
-                left = desenhameumpoema;
+                left = desenhameumpoema + marginbody;
             }
 
             if ($("#UI").hasClass("menuClicked")) {
-                if (left < uparte) {
+                if (left < uparte + marginbody) {
 
-                    left = uparte;
+                    left = uparte + marginbody;
                 }
+            }
+
+            if ($("#GD").hasClass("menuClicked")) {
+                left = marginbody;
+                HideArrow("#next");
+                HideArrow("#previous");
             }
 
 
@@ -485,12 +494,14 @@ function scroll(e) {
 //Menu Filtros
 
 $("#UI").click(function () {
+    HideArrow("#previous");
+    $('#UI').css("pointer-events", "none");
     nrClick = 0;
 
     if ($("#GD").hasClass("menuClicked")) {
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: mintinsight
+                left: mintinsight + marginbody
             });
 
         }
@@ -532,11 +543,14 @@ $("#UI").click(function () {
     setTimeout(function () {
         $(".GD").hide();
         $("#GD, #all").css("pointer-events", "all")
-    }, 805)
+    }, 810)
 
 });
 
 $("#GD").click(function () {
+
+    $('#GD').css("pointer-events", "none");
+    nrClick = 0;
 
     HideArrow("#previous");
     HideArrow("#next");
@@ -564,28 +578,37 @@ $("#GD").click(function () {
     $(".GD").show().animate({
         opacity: "1"
     }, 800);
+
     if ($(window).width() > 1024) {
+
         $("#works").animate({
             left: mintinsight
         }, 800);
     }
+
     setTimeout(function () {
         $(".UI").hide();
-        
+        $("#UI, #all").css("pointer-events", "all");
+
         if ($(window).width() > 1024) {
-            $("#works").css("left", "0");
-            $("#UI, #all").css("pointer-events", "all")
+
+            $("#works").offset({
+                left: marginbody
+            });
         };
-    });
+
+    }, 810);
 });
 
 $("#all").on("click", function () {
+    HideArrow("#previous");
+    $('#all').css("pointer-events", "none");
 
     if ($("#GD").hasClass("menuClicked")) {
 
         if ($(window).width() > 1024) {
             $("#works").offset({
-                left: mintinsight
+                left: mintinsight + marginbody
             });
 
         }
@@ -624,7 +647,7 @@ $("#all").on("click", function () {
 
     setTimeout(function () {
         $("#GD, #UI").css("pointer-events", "all")
-    }, 805)
+    }, 810)
 });
 
 function changeName() {
