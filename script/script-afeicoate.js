@@ -1,4 +1,5 @@
 $(window).on("load", function () {
+    $('#imagecontainer img').css("top", "0");
     loop();
 });
 
