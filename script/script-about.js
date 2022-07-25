@@ -1,4 +1,3 @@
-
 function ScrollBotom() {
     $(".tl").removeClass("tl").addClass("about");
     checking = false;
@@ -23,8 +22,8 @@ function ScrollBotom() {
         }, 250);
 
     }, 600);
-    
-window.scrollTo({
+
+    window.scrollTo({
         top: $(document).height(),
         behavior: "smooth"
     });
@@ -56,17 +55,21 @@ function ScrollTop() {
 
     }, 600);
 
-window.scrollTo({
+    window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
 }
 
 $(window).on('scroll', function () {
-    if ($(window).width() > 769) {
-        var scrollHeight = $(document).height();
-        var scrollPosition = parseInt($(window).height() + $(window).scrollTop());
-        var scrollMid = (scrollHeight - scrollPosition) / 2;
+    if ($(window).width() > 1025) {
+       
+        var scrollHeight = document.body.offsetHeight - window.innerHeight;
+        var scrollPosition = $(window).scrollTop();
+        
+        var scrollMid = scrollHeight / 2;
+        
+         console.log(scrollPosition, scrollMid, scrollHeight)
 
         if (scrollMid < $(window).scrollTop()) {
             if ($("figcaption").html() === "Timeline") {
