@@ -1,6 +1,10 @@
 $(window).on("load", function () {
+    
     $('#imagecontainer img').css("top", "0");
-    loop();
+    
+    setTimeout(function () {
+        loop();
+    }, 1000);
 });
 
 let imgScroll = -$("#imagecontainer img").height();
