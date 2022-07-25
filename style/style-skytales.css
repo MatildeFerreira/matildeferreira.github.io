@@ -837,7 +837,11 @@ h4 {
     #fifth img {
         margin-top: 50px;
     }
-
+    #sixth h3{
+        margin-left:10%;
+         width: 80%;
+    }
+    
     #sixth .FirstCollumn,
     #sixth .SecondCollumn {
         width: 80%;
