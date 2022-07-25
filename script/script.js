@@ -571,13 +571,12 @@ $("#GD").click(function () {
     }
     setTimeout(function () {
         $(".UI").hide();
+        
         if ($(window).width() > 1024) {
             $("#works").css("left", "0");
-
-        $("#UI, #all").css("pointer-events", "all")
-
-    }, 805)
-
+            $("#UI, #all").css("pointer-events", "all")
+        };
+    });
 });
 
 $("#all").on("click", function () {
