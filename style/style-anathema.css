@@ -1,6 +1,10 @@
 .container {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
     overflow: auto;
+}
+
+.container:last-of-type{
+   margin-bottom:50px;
 }
 
 a {
