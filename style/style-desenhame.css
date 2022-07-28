@@ -262,7 +262,8 @@ h4 {
     #first .FirstCollumn,
     #second .FirstCollumn {
         width: 100%;
-        float: right;
+        float: none;
+        margin-right: 0;
     }
 
     #info div:first-child {
