@@ -1720,7 +1720,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
         max-width: 600px;
     }
 
-    .image-text .text{
+    .image-text .text {
         width: calc((100% - 50px)/2) !important;
     }
 
@@ -2092,16 +2092,16 @@ main.skytales>.project-sections>div:nth-of-type(3) {
         margin-bottom: 35px;
     }
 
-    main.about h1{
+    main.about h1 {
         margin-bottom: 25px;
     }
 
-    div.four-column-text .two-column-sub-section  div.text:not(:last-of-type),
-    div.uparte div.image img:nth-child(2n){
+    div.four-column-text .two-column-sub-section div.text:not(:last-of-type),
+    div.uparte div.image img:nth-child(2n) {
         margin-bottom: 0px;
     }
 
-    
+
 }
 
 /* Tablet */
@@ -2236,7 +2236,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
     }
 
     div.project-sections .two-column-text a.button,
-    div.project-sections .three-column-text a.button   {
+    div.project-sections .three-column-text a.button {
         width: calc((100% - 25px) / 2);
         min-width: fit-content;
         max-width: unset;
@@ -2441,7 +2441,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
         padding-top: 125px;
     }
 
-    div#project-section-header{
+    div#project-section-header {
         top: -155px;
     }
 }
@@ -2793,6 +2793,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
 
     .navigation:has(:is(#previous, #next)) a.button {
         font-size: 16px;
+        line-height:22px;
         padding-left: 15px;
         padding-right: 15px;
         height: 40px;
@@ -2919,16 +2920,21 @@ main.skytales>.project-sections>div:nth-of-type(3) {
         width: calc((100% - 25px) / 2);
     }
 
+    div#experience div {
+        min-width: fit-content;
+    }
+
     div.project-sections>div,
     div.work-education {
         margin-top: 75px;
     }
 
-    a.button{
+    a.button {
         font-size: 18px;
     }
 
-    div.horizontal-buttons div.buttons button, div.figma-embed div.buttons button{
+    div.horizontal-buttons div.buttons button,
+    div.figma-embed div.buttons button {
         height: 45px;
     }
 
@@ -2946,12 +2952,42 @@ main.skytales>.project-sections>div:nth-of-type(3) {
     }
 }
 
-@media only screen and (max-width:375px) {
-    header div.title {
-        font-size: 18px;
-    }
+@media only screen and (max-width:365px) {
 
     header div.link a {
         padding-top: 0px;
+    }
+
+    p.statement,
+    div.pullquote p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    header div.title,
+    header div.link a {
+        font-size: 16px;
+        min-width: fit-content;
+    }
+
+    div#contacts ul li {
+        width: calc((100% - 15px) / 3);
+    }
+
+    div#contacts ul {
+        justify-content: left;
+    }
+
+    div#contacts ul li:nth-of-type(4),
+    div#contacts ul li:nth-of-type(5) {
+        margin-top: 0px;
+    }
+
+    div#contacts h2 {
+        margin-top: 10px;
+    }
+
+    main.about ul li:last-of-type {
+        margin-bottom: 10px;
     }
 }
