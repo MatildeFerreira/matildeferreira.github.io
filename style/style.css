@@ -1,6 +1,12 @@
 /*General CSS*/
 
 /* Scroll bar */
+html {
+    scrollbar-width: thin; 
+    scrollbar-color: #002917 #FFFFFD; 
+}
+
+/* For WebKit-based browsers */
 ::-webkit-scrollbar {
     width: 15px;
 }
