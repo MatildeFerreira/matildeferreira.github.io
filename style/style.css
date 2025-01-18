@@ -1313,7 +1313,7 @@ div.about-overview div.first-column {
 div.about-overview div.second-column {
     width: calc(((100% - 250px) / 6) * 3 + 100px);
     margin-top: 16px;
-    height: calc(669px - 16px);
+    height: calc(642px - 16px);
 }
 
 div.about-overview div.second-column img {
@@ -1490,7 +1490,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
     }
 
     div.about-overview div.second-column {
-        height: 625px;
+        height: 599px;
     }
 }
 
@@ -1943,6 +1943,7 @@ main.skytales>.project-sections>div:nth-of-type(3) {
     div#img-tablet {
         display: block;
         overflow: hidden;
+        max-height:550px;
 
     }
 
